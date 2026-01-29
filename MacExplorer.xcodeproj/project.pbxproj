@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		682FF7362F2A75CD00247903 /* FileNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682FF7352F2A75C500247903 /* FileNode.swift */; };
-		682FF7382F2A763900247903 /* FileOutlineViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682FF7372F2A763300247903 /* FileOutlineViewRepresentable.swift */; };
 		682FF73A2F2A767800247903 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682FF7392F2A767500247903 /* ContentView.swift */; };
 		682FF73C2F2A76CF00247903 /* MacExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682FF73B2F2A76C500247903 /* MacExplorerApp.swift */; };
 		682FF73E2F2A797B00247903 /* QuickLookPreviewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682FF73D2F2A797000247903 /* QuickLookPreviewRepresentable.swift */; };
+		68E3CAA52F2C00BF00FCA401 /* FSNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3CAA42F2C00BF00FCA401 /* FSNode.swift */; };
+		68E3CAA72F2C018500FCA401 /* FSOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3CAA62F2C018500FCA401 /* FSOutlineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		682FF7272F2A739700247903 /* MacExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		682FF7352F2A75C500247903 /* FileNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNode.swift; sourceTree = "<group>"; };
-		682FF7372F2A763300247903 /* FileOutlineViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileOutlineViewRepresentable.swift; sourceTree = "<group>"; };
 		682FF7392F2A767500247903 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		682FF73B2F2A76C500247903 /* MacExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacExplorerApp.swift; sourceTree = "<group>"; };
 		682FF73D2F2A797000247903 /* QuickLookPreviewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookPreviewRepresentable.swift; sourceTree = "<group>"; };
+		68E3CAA42F2C00BF00FCA401 /* FSNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSNode.swift; sourceTree = "<group>"; };
+		68E3CAA62F2C018500FCA401 /* FSOutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSOutlineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -47,9 +47,9 @@
 			children = (
 				682FF7292F2A739700247903 /* MacExplorer */,
 				682FF7282F2A739700247903 /* Products */,
-				682FF7352F2A75C500247903 /* FileNode.swift */,
-				682FF7372F2A763300247903 /* FileOutlineViewRepresentable.swift */,
+				68E3CAA42F2C00BF00FCA401 /* FSNode.swift */,
 				682FF73D2F2A797000247903 /* QuickLookPreviewRepresentable.swift */,
+				68E3CAA62F2C018500FCA401 /* FSOutlineView.swift */,
 				682FF7392F2A767500247903 /* ContentView.swift */,
 				682FF73B2F2A76C500247903 /* MacExplorerApp.swift */,
 			);
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				682FF7382F2A763900247903 /* FileOutlineViewRepresentable.swift in Sources */,
+				68E3CAA72F2C018500FCA401 /* FSOutlineView.swift in Sources */,
 				682FF73E2F2A797B00247903 /* QuickLookPreviewRepresentable.swift in Sources */,
-				682FF7362F2A75CD00247903 /* FileNode.swift in Sources */,
+				68E3CAA52F2C00BF00FCA401 /* FSNode.swift in Sources */,
 				682FF73C2F2A76CF00247903 /* MacExplorerApp.swift in Sources */,
 				682FF73A2F2A767800247903 /* ContentView.swift in Sources */,
 			);
