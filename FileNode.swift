@@ -79,6 +79,5 @@ class FileNode: NSObject {
             .map { FileNode(url: $0, parent: self) }
             .sorted { $0.displayName.localizedCaseInsensitiveCompare($1.displayName) == .orderedAscending }
     }
-
-
+    
 }
