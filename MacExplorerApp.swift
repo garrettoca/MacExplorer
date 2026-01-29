@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct MacExplorerApp: App {
+struct FileNavigatorApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
