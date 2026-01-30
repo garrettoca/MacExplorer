@@ -1,0 +1,6 @@
+1. directory/folder contents myst reload each time - no caching
+2. where are the user folders?
+3. file - preview, create, delete & run a script from a selected directory (drop onto a folder?)
+4. execute a script in a directory
+5. 'open' a file - run it's application
+6. folder table/icon/ detail & file metadata

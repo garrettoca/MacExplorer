@@ -10,6 +10,7 @@
 		682FF73A2F2A767800247903 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682FF7392F2A767500247903 /* ContentView.swift */; };
 		682FF73C2F2A76CF00247903 /* MacExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682FF73B2F2A76C500247903 /* MacExplorerApp.swift */; };
 		682FF73E2F2A797B00247903 /* QuickLookPreviewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682FF73D2F2A797000247903 /* QuickLookPreviewRepresentable.swift */; };
+		68BF64272F2C2C3F00FCAE30 /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68BF64262F2C2C3300FCAE30 /* todo.txt */; };
 		68E3CAA52F2C00BF00FCA401 /* FSNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3CAA42F2C00BF00FCA401 /* FSNode.swift */; };
 		68E3CAA72F2C018500FCA401 /* FSOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3CAA62F2C018500FCA401 /* FSOutlineView.swift */; };
 /* End PBXBuildFile section */
@@ -19,6 +20,7 @@
 		682FF7392F2A767500247903 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		682FF73B2F2A76C500247903 /* MacExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacExplorerApp.swift; sourceTree = "<group>"; };
 		682FF73D2F2A797000247903 /* QuickLookPreviewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookPreviewRepresentable.swift; sourceTree = "<group>"; };
+		68BF64262F2C2C3300FCAE30 /* todo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = todo.txt; sourceTree = "<group>"; };
 		68E3CAA42F2C00BF00FCA401 /* FSNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSNode.swift; sourceTree = "<group>"; };
 		68E3CAA62F2C018500FCA401 /* FSOutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSOutlineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +47,7 @@
 		682FF71E2F2A739700247903 = {
 			isa = PBXGroup;
 			children = (
+				68BF64262F2C2C3300FCAE30 /* todo.txt */,
 				682FF7292F2A739700247903 /* MacExplorer */,
 				682FF7282F2A739700247903 /* Products */,
 				68E3CAA42F2C00BF00FCA401 /* FSNode.swift */,
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BF64272F2C2C3F00FCAE30 /* todo.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,12 +309,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
